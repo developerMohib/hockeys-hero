@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mohib, developermohib, codermohib, mohibullahmohim ">
     <title>Hockey's Hero Website Assignment Three.</title>
+    <link rel="shortcut icon" href="./images/logo-hockey.png" type="image/x-icon">
 
-    <!-- daisyUl Khalar Sundori Meye -->
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+
+    <!-- daisyUl Khalar Sundori Meye -->    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -17,14 +26,96 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'title-color': '#131318',
+                'text-color': 'rgba(19, 19, 24, 0.60)',
+                'menu-color': '#424247',
+                'pri-btn-c': '#FF4240',
               }
             }
           }
         }
       </script>
 
+      <!-- Custiom CSS For important Style -->
+      <style>
+        .container{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+        img{
+            width: 100%;
+        }
+
+      </style>
+
 </head>
 <body>
+<!-- Header Section Start -->
+
+
+<!-- Header Section End -->
+
+<main>
+    <!-- Slider Section Start -->
+    <section>
+        <div class="container">
+
+        </div>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Hockey Club Section Start -->
+    <section class="my-10">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title-color text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide "> Professional Hockeys Club </h1>
+                <p class="text-color lg:w-3/4 mx-auto p-5 md:text-2xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- Racial Process -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-5 my-4 lg:my-14">
+ 
+                <div class="text-center hover:shadow-md shadow-gray-200 hover:-translate-y-1 rounded-md py-3">
+                    <div class="radial-progress text-pri-btn-c" style="--value:87;" role="progressbar">87%</div>
+                    <div class="">
+                        <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 "> Prayer Facility </h1>
+                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                    </div>
+                </div>
+                
+                <div class="text-center hover:shadow-md shadow-gray-200 hover:-translate-y-1 rounded-md py-3">
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <div class="">
+                        <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 ">Experienced Coach</h1>
+                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                    </div>
+                </div>
+                
+                <div class="text-center hover:shadow-md shadow-gray-200 hover:-translate-y-1 rounded-md py-3">
+                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                    <div class="">
+                        <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 "> Senior Player </h1>
+                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                    </div>
+                </div>
+                
+                <div class="text-center hover:shadow-md shadow-gray-200 hover:-translate-y-1 rounded-md py-3">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                    <div class="">
+                        <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 ">Training Ground</h1>
+                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- container -->
+        </div>
+    </section>
+    <!-- Hockey Club Section End -->
+</main>
+
     
 </body>
 </html>
