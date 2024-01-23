@@ -18,6 +18,7 @@
     <!-- daisyUl Khalar Sundori Meye -->    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 
     <!-- Tailwind css script -->
     <script>
@@ -35,21 +36,6 @@
           }
         }
       </script>
-
-      <!-- Custiom CSS For important Style -->
-      <style>
-        .container{
-            max-width: 1200px;
-            margin: auto;
-        }
-        .manrope{
-            font-family: 'Manrope', sans-serif;
-        }
-        img{
-            width: 100%;
-        }
-
-      </style>
 
 </head>
 <body class="manrope">
@@ -83,7 +69,7 @@
             </div>
             <div class="navbar-end">
                 <a href=" "> <i class="fa-solid fa-magnifying-glass mx-3 invisible md:visible lg:visible"></i> </a>
-              <a class="btn bg-pri-btn-c text-white"> Button</a>
+              <a href="" class="btn bg-pri-btn-c text-white"> Button</a>
             </div>
           </div>
     </div>
@@ -148,13 +134,65 @@
     <!-- Hockey Club Section End -->
 
     <!-- Program Section Start -->
-    <section>
+    <section class="my-10">
         <div class="container">
             <div class="text-center">
-                <h1 class="title-color text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide "> Professional Hockeys Club </h1>
+                <h1 class="title-color text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide "> Program Sections </h1>
                 <p class="text-color lg:w-3/4 mx-auto p-5 md:text-2xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            
+            <!-- card -->
+            <div class="lg:grid lg:grid-cols-1  gap-6">
+
+              <div class="lg:flex gap-6">
+
+                <div class="relative flex-1 my-2">
+                  <div> <img src="./images/2.png" alt=""> </div>
+                  <div class="absolute left-2 bottom-2">
+                    <div class="card card-compact ">
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative flex-1 my-2">
+                  <div> <img src="./images/2.png" alt=""> </div>
+                  <div class="absolute left-2 bottom-2">
+                    <div class="card card-compact ">
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="relative my-2">
+                <div> <img src="./images/2.png" alt=""> </div>
+                <div class="absolute left-2 bottom-2">
+                  <div class="card card-compact ">
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Container -->
         </div>
     </section>
     <!-- Program Section End -->
