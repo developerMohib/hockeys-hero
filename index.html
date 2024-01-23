@@ -40,7 +40,7 @@
 </head>
 <body class="manrope">
 <!-- Header Section Start -->
-<header>
+<header id="Home" class="sticky top-0 bg-white z-20 shadow-xl" >
     <div class="container">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -49,27 +49,27 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li> <a class="text-[#FF4240] font-medium " href="">Home</a> </li>
-                  <li> <a class="text-menu-color font-medium" href="">About</a> </li>
-                  <li> <a class="text-menu-color font-medium" href="">Pages</a> </li>
-                  <li> <a class="text-menu-color font-medium" href="">Blog</a> </li>
-                  <li> <a class="text-menu-color font-medium" href="">Contact</a> </li>
+                  <li> <a class="text-[#FF4240] font-medium " href="#Home">Home</a> </li>
+                  <li> <a class="text-menu-color font-medium" href="#About">About</a> </li>
+                  <li> <a class="text-menu-color font-medium" href="#Product">Pages</a> </li>
+                  <li> <a class="text-menu-color font-medium" href="#Blog">Blog</a> </li>
+                  <li> <a class="text-menu-color font-medium" href="#Contact">Contact</a> </li>
                 </ul>
               </div>
               <a class="btn btn-ghost text-3xl font-extrabold"> Hockey<span class="text-pri-btn-c">'</span>s </a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li> <a class="text-[#FF4240] font-medium " href="">Home</a> </li>
-                <li> <a class="text-menu-color font-medium" href="">About</a> </li>
-                <li> <a class="text-menu-color font-medium " href="">Pages</a> </li>
-                <li> <a class="text-menu-color font-medium " href="">Blog</a> </li>
-                <li> <a class="text-menu-color font-medium " href="">Contact</a> </li>
+                <li> <a class="text-[#FF4240] font-medium " href="#Home">Home</a> </li>
+                <li> <a class="text-menu-color font-medium" href="#About">About</a> </li>
+                <li> <a class="text-menu-color font-medium " href="#Product">Pages</a> </li>
+                <li> <a class="text-menu-color font-medium " href="#Blog">Blog</a> </li>
+                <li> <a class="text-menu-color font-medium " href="#Contact">Contact</a> </li>
               </ul>
             </div>
             <div class="navbar-end">
                 <a href=" "> <i class="fa-solid fa-magnifying-glass mx-3 invisible md:visible lg:visible"></i> </a>
-              <a href="" class="btn bg-pri-btn-c border-none text-white"> Button</a>
+              <a href="" class="btn bg-pri-btn-c border-none text-white"> Get Ticket</a>
             </div>
           </div>
     </div>
@@ -87,8 +87,8 @@
             <!-- <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"> -->
               <div class="absolute left-5 bottom-8">
             <!-- <div class="absolute left-5 bottom-8"> -->
-              <a href="#slide3" class="btn btn-circle ">❮</a> 
-              <a href="#slide2" class="btn btn-circle ">❯</a>
+              <a href="#slide3" class="btn btn-circle bg-black text-white ">❮</a> 
+              <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
             </div>
           </div> 
     
@@ -96,33 +96,37 @@
             <img src="./images/1.png" alt="">
             <div class="absolute left-5 bottom-8">
             <!-- <div class="absolute left-5 bottom-8"> -->
-              <a href="#slide1" class="btn btn-circle">❮</a> 
-              <a href="#slide3" class="btn btn-circle">❯</a>
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+              <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div> 
     
           <div id="slide3" class="carousel-item relative w-full ">
             <img src="./images/4.png" alt="">
             <div class="absolute left-5 bottom-8"> 
-              <a href="#slide2" class="btn btn-circle ">❮</a> 
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide2" class="btn btn-circle bg-black text-white ">❮</a> 
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div> 
           
         </div>
         <div class="text-carosell lg:absolute bottom-5 right-5 lg:w-1/2 ">
-          <p class=" bg-black text-white p-5 rounded-md" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatem atque rerum. Modi iste qui repellendus quos, consequatur deleniti veritatis inventore molestias excepturi reprehenderit optio, doloremque magnam ipsum laborum! Omnis, quia at?</p>
+          <div  class=" bg-black text-white p-5 rounded-md">
+            <h1 class="text-white bg-black font-bold text-2xl">Meet all the heroes from the field</h1>
+            <p class=" bg-black text-white rounded-md" >All the time Heroes are stay in field, they practice their task. all we know makes a man perfect by practicing. soo cool</p>
+          </div>
+          
         </div>
       </div>
     </section>
     <!-- Slider Section End -->
 
     <!-- Hockey Club Section Start -->
-    <section class="my-10">
+    <section class="my-10" id="About">
         <div class="container">
             <div class="text-center">
                 <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide lg:px-0 px-3"> Professional Hockeys Club </h1>
-                <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl ">Hockey is a popular game in our coutry, though we rarely play , not we  play , some boys play it, it a one of the most practicing game.</p>
             </div>
             <!-- Racial Process -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-5 my-4 lg:my-14">
@@ -131,7 +135,7 @@
                     <div class="radial-progress text-pri-btn-c" style="--value:87;" role="progressbar">87%</div>
                     <div class="">
                         <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 "> Prayer Facility </h1>
-                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                        <p class="text-color p-5 ">Lets play Hockey for Entertainment. it helps us to make happy. </p>
                     </div>
                 </div>
                 
@@ -139,7 +143,7 @@
                     <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
                     <div class="">
                         <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 ">Experienced Coach</h1>
-                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                        <p class="text-color p-5 ">A good trainer always helpful person. he helps us to make happy. </p>
                     </div>
                 </div>
                 
@@ -147,7 +151,7 @@
                     <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
                     <div class="">
                         <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 "> Senior Player </h1>
-                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                        <p class="text-color p-5 ">Lets play Hockey for Entertainment. it helps us to make happy.  </p>
                     </div>
                 </div>
                 
@@ -155,7 +159,7 @@
                     <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
                     <div class="">
                         <h1 class="title-color text-3xl font-semibold tracking-wide mt-2 ">Training Ground</h1>
-                        <p class="text-color p-5 ">Amet consectetur. Condimentum dignissim adipiscing </p>
+                        <p class="text-color p-5 "> for playing Hockey we need a safe field. you know.</p>
                     </div>
                 </div>
 
@@ -166,35 +170,35 @@
     <!-- Hockey Club Section End -->
 
     <!-- Program Section Start -->
-    <section class="my-10">
+    <section class="my-10" id="Blog">
         <div class="container">
             <div class="text-center">
                 <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide"> Program Sections </h1>
-                <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl ">Customer are always king. they can grow up your business or not. becoz if they dont come your shop, where you sell the products.</p>
             </div>
             <!-- card -->            
             <div class="lg:grid lg:grid-cols-1 grid-cols-1 mt-10 gap-6">
 
               <div class=" lg:flex lg:justify-between">
                 <!-- Card 1 -->
-                <div class="card bg-base-100 shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
+                <div class="card bg-[#13131880] shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
                   <figure><img src="./images/2.png" alt="Shoes" /></figure>
                   <div class="z-10 absolute bottom-5 left-12 ">
                     <h2 class=" text-white font-bold text-xl lg:text-2xl">Junior Program</h2>
-                    <p class="text-white text-sm lg:text-base lg:py-4 lg:my-0 my-2" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                      enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                    <p class="text-white text-sm lg:text-base lg:py-4 lg:my-0 my-2" >Sometime we have to join a player meetup. it inspire to player 
+                      Inspiration is one of the most power to reach the goal. never be scammed by demotivated person's speech.</p>
                     <div class=" ">
                       <a href="" class="btn bg-pri-btn-c border-none hover:bg-amber-400 text-white"> Register Now! </a>
                     </div>
                   </div>
                 </div>
                   <!-- Card 2 -->
-                <div class="card bg-base-100 shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
+                <div class="card bg-[#13131880] shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
                   <figure><img src="./images/3.png" alt="Shoes" /></figure>
                   <div class="z-10 absolute bottom-5 left-12 ">
-                    <h2 class=" text-white font-bold text-xl lg:text-2xl">Junior Program</h2>
-                    <p class="text-white text-sm lg:text-base lg:py-4 lg:my-0 my-2" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                      enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                    <h2 class=" text-white font-bold text-xl lg:text-2xl">Teenager Program</h2>
+                    <p class="text-white text-sm lg:text-base lg:py-4 lg:my-0 my-2" >Sometime we have to join a player meetup. it inspire to player 
+                      Inspiration is one of the most power to reach the goal. never be scammed by demotivated person's speech.</p>
                     <div class=" ">
                       <a href="" class="btn bg-pri-btn-c border-none hover:bg-amber-400 text-white"> Register Now! </a>
                     </div>
@@ -203,12 +207,12 @@
                 
               </div>
               <!-- card 3 -->
-              <div class="card bg-base-100 shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
+              <div class="card bg-[#13131880] shadow-xl image-full lg:h-auto h-60 mt-5 lg:mt-0 relative">
                 <figure><img class=" object-cover " src="./images/4.png" alt="Shoes" /></figure>
                 <div class="z-10 absolute bottom-5 left-12 ">
-                  <h2 class=" text-white font-bold text-xl lg:text-2xl">Junior Program</h2>
-                  <p class="text-white text-sm lg:text-base lg:py-4 lg:w-2/5 w-full lg:my-0 my-2" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <h2 class=" text-white font-bold text-xl lg:text-2xl">Professional Program</h2>
+                  <p class="text-white text-sm lg:text-base lg:py-4 lg:w-2/5 w-full lg:my-0 my-2" >Sometime we have to join a player meetup. it inspire to player 
+                    Inspiration is one of the most power to reach the goal. never be scammed by demotivated person's speech.</p>
                   <div class=" ">
                     <a href="" class="btn bg-pri-btn-c border-none hover:bg-amber-400 text-white"> Register Now! </a>
                   </div>
@@ -222,11 +226,11 @@
     <!-- Program Section End -->
 
     <!-- Products Section Start -->
-    <section class="my-20">
+    <section class="my-20" id="Product">
       <div class="container">
         <div class="text-center">
             <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide"> Our New Products </h1>
-            <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl">This is our sports related product. we want to provide people the best product sine they can get benefit. client are always king. </p>
         </div>
         <!-- Card -->
         <div class="lg:grid lg:grid-cols-2 lg:grid-rows-3 gap-6" >
@@ -359,20 +363,20 @@
       <div class="container">
         <div class="text-center">
             <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide"> Clients Question </h1>
-            <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-text-color lg:w-3/5 mx-auto p-5 text-xl">Customer are always king. they can grow up your business or not. becoz if they dont come your shop, where you sell the products.</p>
         </div>
-        <div class="lg:grid lg:grid-cols-3 gap-6 mt-10">
-          <div>
+        <div class="lg:grid lg:grid-cols-5 gap-6 mt-10">
+          <div class=" lg:col-span-2 mt-6 lg:mt-0" >
             <img src="./images/11.png" alt=""> 
           </div>
-          <div class=" lg:col-span-2 mt-6 lg:mt-0">
+          <div class=" lg:col-span-3 mt-6 lg:mt-0">
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" checked="checked" /> 
               <div class="collapse-title">
                 <h1 class="text-title-color text-xl font-bold">Our Equipment</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-base-200 mt-2">
@@ -381,7 +385,7 @@
                 <h1 class="text-title-color text-xl font-bold">Hockey Training</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-base-200 mt-2">
@@ -390,7 +394,7 @@
                 <h1 class="text-title-color text-xl font-bold">Private Lessons</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us. its good for us</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-base-200 mt-2">
@@ -399,7 +403,7 @@
                 <h1 class="text-title-color text-xl font-bold">Ski Touring</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us..</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-base-200 mt-2">
@@ -408,7 +412,7 @@
                 <h1 class="text-title-color text-xl font-bold">Booking</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us.</p>
               </div>
             </div>
             <div class="collapse collapse-plus bg-base-200 mt-2">
@@ -417,7 +421,7 @@
                 <h1 class="text-title-color text-xl font-bold">Pricings</h1>
               </div>
               <div class="collapse-content"> 
-                <p class="text-text-color">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                <p class="text-text-color">the best cloths we want to provide to these king customer. we want they remember us.</p>
               </div>
             </div>
 
@@ -428,16 +432,16 @@
     <!-- Clients Section End -->
 
     <!-- Contact Section Start -->
-    <section class="my-20">
+    <section class="my-20" id="Contact">
       <div class="container">
         <div class="text-center border-dashed border-y-1 lg:py-10">
             <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide"> Get In Touch </h1>
-            <p class="text-text-color lg:w-3/4 mx-auto p-5 text-xl ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-text-color lg:w-3/4 mx-auto p-5 text-xl ">Customer are always king. they can grow up your business or not. becoz if they dont come your shop, where you sell the products.</p>
         </div>
         <!-- Contact From -->
 
-        <div class="grid lg:grid lg:grid-cols-3 gap-6">
-          <div class="border p-5 rounded-md">
+        <div class="grid lg:grid lg:grid-cols-5 gap-6">
+          <div class="border lg:col-span-2 p-5 rounded-md">
             <div class="bg-[#BCED6D1A] mt-5">
               <img class="w-10" src="./images/Group17.png" alt="">
               <p class="text-text-color text-sm "> Phone Number : <br> <a class="font-bold text-base text-title-color" href="tel:+8801706439736"> +8801706439736 </a> </p>
@@ -455,7 +459,7 @@
             </div>
           </div>
           
-          <div class="lg:col-span-2 ml-3">
+          <div class="lg:col-span-3 ml-3">
             <div class="lg:grid lg:grid-cols-2">
               <div class="my-3">
                 <label class="font-bold text-title-color" for="name">Your Name</label> <br>
@@ -483,13 +487,13 @@
               </div>
             </div>
             <div class=" text-center">
-              <a href="" class="btn bg-pri-btn-c border-none hover:bg-amber-400 text-white w-3/5"> Register Now! </a>
+              <a href="" class="btn bg-pri-btn-c border-none hover:bg-amber-400 text-white w-full"> Send Message </a>
             </div>
           </div>
         </div>
 
         <!-- Social Media -->
-        <div class="social-media text-center lg:my-20">
+        <div class="social-media text-center lg:my-20 mt-10">
           <h1 class="title-color text-3xl lg:text-4xl font-extrabold tracking-wide"> Social Media </h1>
           <ul class="bg-[rgba(19, 19, 24, 0.03)] flex justify-center my-4">
             <li> <a class="p-2" title="Facebook" href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
@@ -507,7 +511,7 @@
 <!-- Footer Section Start -->
 
 <section class="footer p-10 bg-title-color text-base-content py-20">
-  <div class="footer grid lg:grid-cols-3 gap-5 place-items-center">
+  <div class="footer grid lg:grid-cols-3 gap-5 place-items-center items-start">
     <div class="description">
       <h1 class="text-white font-extrabold text-3xl">Get In Touch</h1>
       <p class="text-white" >ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
@@ -516,7 +520,7 @@
       <p><a href="tel:+8801889463809" class="link link-hover text-white "> <i class="fa-solid fa-phone text-pri-btn-c text-xl mr-2"></i> +8801889463809</a></p>
     </div>
 
-    <div class="flex justify-between">
+    <div class="flex justify-between lg:gap-52">
 
     <div class="footer-services">
       <header class="footer-title text-white">Company</header> 
