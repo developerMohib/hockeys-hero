@@ -9,3 +9,7 @@
 img{
     width: 100%;
 }
+
+input#name, input#email, input#subject, input#Number, textarea#message {
+    width: 95%;
+}
