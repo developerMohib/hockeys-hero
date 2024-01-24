@@ -13,3 +13,23 @@ img{
 input#name, input#email, input#subject, input#Number, textarea#message {
     width: 95%;
 }
+
+.my-menu{
+    position: relative;
+}
+.my-menu input#Click:checked ~ ul {
+    visibility: visible;
+    display: block;
+}
+
+.my-menu ul{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+}
+.my-menu ul li a{
+    color: #fff;
+}
